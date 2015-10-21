@@ -1,2 +1,1 @@
-# NewProject
-1st time website
+# My personal website
