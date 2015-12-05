@@ -1,2 +1,2 @@
 # Web Design is for Everybody 
-<p>This repository holds projects related to Coursera's Web Design is for Everybody Specialization.</p>
+<p>This is my final project for the Web Design is for Everybody Specialization: HTML5 Course.</p>
