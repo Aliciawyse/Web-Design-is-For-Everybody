@@ -1,2 +1,1 @@
-# Web Design is for Everybody 
-<p>This is my final project for the Web Design is for Everybody Specialization: HTML5 Course.</p>
+The final project for this course was to create a web page that matches the example given here (http://www.intro-webdesign.com/HTML5/HTML5project.png). My page had to match this example exactly other than the title and any parts highlighted in yellow. To check my HTML code for syntactics correctness (as well as spelling), I used W3C's markup validation service.
