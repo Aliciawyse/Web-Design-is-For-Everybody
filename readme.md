@@ -1,0 +1,2 @@
+This Specialization covers how to write syntactically correct HTML5 and CSS3, and how to create interactive web experiences with JavaScript. During the capstone in February 2016, I'll
+develop a professional-quality web portfolio demonstrating my growth as a web developer and knowledge of accessible web design. 
