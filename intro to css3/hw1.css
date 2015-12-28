@@ -5,6 +5,7 @@ header{
     background-size:100%;
     padding: 10px 10px 0px 10px;
     text-align: center;
+    
 }
 body{
     padding: 1%;
@@ -19,7 +20,6 @@ nav a{
 	-o-border-radius: 5;
     border-radius: 11%;
     padding: 10px 35px 15px 35px;
-    
     background-color: #C0C0C0;
     background-color: rgba(0,0,0,.3);
     color: #000000;
@@ -41,11 +41,7 @@ h2{
 section{
     background-color:#008877;
 }
-a{
-    background-color:#800000;
-    color:#00ffcc;
-    text-align: center;
-}
+
 img{
     display: block;
     width: 175px;
@@ -55,15 +51,88 @@ img{
 .left{
     background-color: #666600;
     width: 20%;
-    display: inline-block;
+    display: block;
+    float: left;
+    height:100vh;
+    min-width:200px;
 }
 
 .right{
-    display: inline-block;
+    display: block;
     background-color:#ffffff;
-    width:75%;
+    width:70%;
+    float: left;
+    margin: .5%;
 }
 
 main a{
     margin:2%;
+}
+
+table {
+    font-family: georgia, arial, times;
+    font-size:20px;
+    line-height:20px;
+    width:80%;
+    margin: 0 auto;
+}
+
+th {
+    background-color: rgba(0,0,0,.3);
+    background: -moz-linear-gradient(#098725 0%, #ffff99 100%);
+	background: -webkit-linear-gradient(#098725 0%, #ffff99 100%);
+	background: -o-linear-gradient(#098725 0%, #ffff99 100%);
+    background: linear-gradient(#098725 0%, #ffff99 100%);
+    border: 2px solid green;
+    border-bottom:6px solid green;
+}
+
+th:hover {
+    transform: rotate(5deg);
+}
+
+th:nth-child(2) {
+    border-radius:2px 2px 0 0;
+}
+
+th:first-child{
+    -webkit-border-radius:10px 0 0 0;
+    border-radius:10px 2px 0 0;
+}
+
+th:last-child{
+    -webkit-border-radius:0 10px 0 0;
+    border-radius:2px 10px 0 0 ;
+}
+
+tr {
+    opacity:.8;
+}
+
+tr:hover{
+    opacity:1;
+}
+tr:first-of-type{
+    opacity:1;
+}
+
+td {
+    padding:10px;
+    color:rgb(0,100,20);
+    background-color:rgb(192,192,192);
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    text-shadow:5px 5px 10px #00FF00;
+
+}
+td:nth-child(1) {
+    text-align:left;
+}
+
+td:nth-child(2) {
+    text-align:center;
+}
+
+td:nth-child(3) {
+    text-align:center;
 }
